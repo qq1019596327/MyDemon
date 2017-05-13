@@ -1,0 +1,27 @@
+<view class="content">
+  <view class="top_photo">
+    <image class="photo" src="/res/post/chan.png"></image>
+    <!--<image class="icon" src="/res/icon/music.png"></image>-->
+  </view>
+
+  <view class="release_info">
+    <image class="user_icon" src="/res/header/daogu.jpeg"></image>
+    <text class="user_name">公子倚</text>
+    <text class="text">发布于</text>
+    <text class="releas_date">5小时前</text>
+  </view>
+
+  <text class="title"> 又是一个寺庙</text>
+
+  <view class="share">
+    <view class="halving_line"></view>
+    <view class="photo">
+      <image  src="/res/icon/shoucang-beSelected.jpg"></image>
+      <image  src="/res/icon/share.jpg"></image>
+    </view>
+  </view>
+
+  <text class="context">
+    这里是文本的正文 这里是文本的正文这里是文本的正文 这里是文本的正文这里是文本的正文 这里是文本的正文这里是文本的正文 这里是文本的正文这里是文本的正文 这里是文本的正文这里是文本的正文 这里是文本的正文这里是文本的正文 这里是文本的正文这里是文本的正文 这里是文本的正文
+  </text>
+</view>

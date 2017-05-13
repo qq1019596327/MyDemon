@@ -1,0 +1,71 @@
+.list_item_layout{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rpx;
+    margin-bottom: 30rpx;
+    background-color: #fff;
+    border-bottom: 1px solid #1e1e1e;
+    border-top: 1px solid #1e1e1e;
+    padding-bottom: 5rpx;
+}
+.list_item_layout .top{
+    margin: 10rpx 0 20rpx 10rpx;
+    flex-direction: row;
+}
+
+.list_item_layout .top .icon{
+    width: 60rpx;
+    height: 60rpx;
+    vertical-align: middle;
+}
+.list_item_layout .top .author,
+.list_item_layout .top .date{
+    margin-left: 10rpx;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    font-size: 26rpx;
+}
+
+.list_item_layout .title{
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.list_item_layout .picture{
+    height: 200px;
+    width: 100%;
+    margin:auto 0;
+    margin-bottom: 15px;
+}
+
+.list_item_layout .text{
+    color: #666;
+    font-size: 28rpx;
+    margin-bottom: 20rpx;
+    margin-left: 20rpx;
+    line-height: 40rpx;
+    letter-spacing: 2rpx;
+}
+
+.list_item_layout .like{
+    font-size: 13px;
+    flex-direction: row;
+    line-height: 16px;
+    margin-left: 10rpx;
+
+}
+
+.list_item_layout .like .like_text{
+    margin-left: 10rpx;
+    vertical-align: middle;
+}
+
+.list_item_layout .like .like_imag{
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+    margin-left: 10rpx;
+}

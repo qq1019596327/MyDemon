@@ -1,0 +1,21 @@
+@import "item/list_item.wxss";
+page{
+   
+    background-color: #e7e7e7;
+}
+.content_layout{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.top_swioer{
+    width: 100%;
+    height: 480rpx;
+    background: #111111;
+}
+.top_swioer image{
+    width: 100%;
+}
+
+

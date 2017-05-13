@@ -1,0 +1,30 @@
+
+.rootlayout{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+}
+.icon{
+    width: 180rpx;
+    height: 180rpx;
+    margin-top: 100rpx;
+    border-radius: 50%;
+}
+.name{
+    margin-top: 70rpx;
+    
+
+}
+.box_text{
+    color: #ee00ee;
+    margin-top: 100rpx;
+    border:1px solid #ee00ee;
+    padding: 10rpx;
+}
+page{
+    width: 100%;
+    height: 100%;
+    font-size: 30rpx;
+}

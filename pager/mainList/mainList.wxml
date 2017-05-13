@@ -1,0 +1,13 @@
+<import src="item/list_item.wxml" />
+<view class="content_layout">
+  <swiper class="top_swioer" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <swiper-item wx:for="{{imgUrls}}">
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </swiper>
+  <block wx:for="{{psot}}" wx:for-item="item">
+    <view catchtap="onItemTap" data-obj="{{item}}"> 
+        <template is="main_item" data="{{...item}}"/>
+    </view>
+  </block>
+</view>
