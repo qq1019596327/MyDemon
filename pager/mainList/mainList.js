@@ -8,10 +8,10 @@ Page({
   },
   onItemTap: function (event) {
     var obj=this.getTapData(event);
-    console.log("我点击了item" + obj.author);
-    // wx.navigateTo({
-    //   url: './item_detail/item_detail',
-    // })
+    console.log("我点击了item" + obj.postId);
+    wx.navigateTo({
+      url: 'item_detail/item_detail?id=' + obj.postId
+    });
   },
   onLoad: function (options) {
     // 生命周期函数--监听页面加载

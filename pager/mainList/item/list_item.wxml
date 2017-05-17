@@ -1,18 +1,18 @@
 <template name="main_item">
   <view class="list_item_layout">
     <view class="top">
-      <image class="icon" src="{{icon}}" />
+      <image class="icon" src="{{avatar}}" />
       <text class="author">{{author}}</text>
-      <text class="date">{{date}}{{index}}</text>
+      <text class="date">{{date}}</text>
     </view>
     <text class="title">{{title}}</text>
-    <image class="picture" src="{{picture}}"></image>
-    <text class="text">{{text}}</text>
+    <image class="picture" src="{{imgSrc}}"></image>
+    <text class="text">{{content}}</text>
     <view class="like">
       <image class="like_imag" src="/res/icon/star.jpg"></image>
-      <text class="like_text">{{shou}}</text>
+      <text class="like_text">{{collection}}</text>
       <image class="like_imag" src="/res/icon/message.jpg"></image>
-      <text class="like_text">{{lun}}</text>
+      <text class="like_text">{{reading}}</text>
     </view>
   </view>
 </template>

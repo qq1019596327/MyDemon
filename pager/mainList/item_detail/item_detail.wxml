@@ -1,27 +1,27 @@
 <view class="content">
   <view class="top_photo">
-    <image class="photo" src="/res/post/chan.png"></image>
-    <!--<image class="icon" src="/res/icon/music.png"></image>-->
+    <image class="photo" src="{{headImgSrc}}"></image>
+    <image class="icon" catchtap="onPlay" src="/res/icon/{{isPlay?'stop.png':'music.png'}}" data-play-music="{{music}}"></image>
   </view>
 
   <view class="release_info">
-    <image class="user_icon" src="/res/header/daogu.jpeg"></image>
-    <text class="user_name">公子倚</text>
+    <image class="user_icon" src="{{avatar}}"></image>
+    <text class="user_name">{{author}}</text>
     <text class="text">发布于</text>
-    <text class="releas_date">5小时前</text>
+    <text class="releas_date">{{dateTime}}</text>
   </view>
 
-  <text class="title"> 又是一个寺庙</text>
+  <text class="title"> {{title}}</text>
 
   <view class="share">
     <view class="halving_line"></view>
     <view class="photo">
-      <image  src="/res/icon/shoucang-beSelected.jpg"></image>
-      <image  src="/res/icon/share.jpg"></image>
+      <image catchtap="onCollection"  wx:if="{{Collection}}" src="/res/icon/circle-star.jpg"></image>
+      <image catchtap="onCollection" wx:else  src="/res/icon/shoucang-beSelected.jpg"></image>
+      <image catchtap="onShareTap" src="/res/icon/share.jpg"></image>
     </view>
   </view>
 
-  <text class="context">
-    这里是文本的正文 这里是文本的正文这里是文本的正文 这里是文本的正文这里是文本的正文 这里是文本的正文这里是文本的正文 这里是文本的正文这里是文本的正文 这里是文本的正文这里是文本的正文 这里是文本的正文这里是文本的正文 这里是文本的正文这里是文本的正文 这里是文本的正文
+  <text class="context">{{detail}}
   </text>
 </view>

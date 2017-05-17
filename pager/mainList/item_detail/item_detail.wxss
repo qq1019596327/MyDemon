@@ -11,6 +11,15 @@
   width: 100%;
   height: 460rpx;
 }
+.top_photo .icon{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -50rpx;
+  top: 180rpx;
+  opacity: 0.6;
+}
 
 .release_info{
   flex-direction: row;
@@ -18,8 +27,8 @@
   margin-top: 20rpx;
 }
 .release_info image{
-  width: 90rpx;
-  height: 90rpx;
+  width: 65rpx;
+  height: 65rpx;
   border-radius: 50%;
   vertical-align: middle;
 }

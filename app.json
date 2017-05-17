@@ -1,13 +1,13 @@
 {
   "pages":[
-    "pager/mainList/item_detail/item_detail",
     "pager/login/login",
-    "pager/mainList/mainList"
+    "pager/mainList/mainList",
+    "pager/mainList/item_detail/item_detail"    
+    
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#154f81",
-    "navigationBarTitleText": "我的小程序",
     "navigationBarTextStyle": "white"
   }
 }
