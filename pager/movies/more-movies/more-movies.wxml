@@ -1,0 +1,2 @@
+<import src="/pager/movies/movie-grid/movie-grid.wxml"/>
+<template is="movie-gird" data="{{List}}"></template>

@@ -1,0 +1,13 @@
+@import "../movie/movie.wxss";
+
+.movie-gird-content {
+  margin: 40rpx 0 40rpx 6rpx;
+  height: 1300rpx;
+}
+
+.movie-gird-itme {
+  float: left;
+  margin-bottom: 40rpx;
+  padding-left: 20rpx;
+  padding-right: 22rpx;
+}

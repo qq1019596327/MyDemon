@@ -29,13 +29,13 @@ Page({
     }
   },
   onCollection: function () {
-    var Collection = wx.getStorageSync("Collection")
-    Collection[id] = !Collection[id]
-    wx.setStorageSync("Collection", Collection)
-    this.setData({ Collection: Collection[id] })
+    var Collection = wx.getStorageSync("Collection");
+    Collection[id] = !Collection[id];
+    wx.setStorageSync("Collection", Collection);
+    this.setData({ Collection: Collection[id] });
     wx.showToast({
       title: Collection[id] ? '收藏成功' : "取消收藏"
-    })
+    });
   },
   onPlay: function (event) {
     var play = this.getTapData(event).playMusic;

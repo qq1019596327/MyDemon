@@ -1,0 +1,19 @@
+/* stars.wxss */
+.stars-content{
+  display: flex;
+  flex-flow: row;
+}
+.start-score{
+  display: flex;
+  flex-flow: row;
+  margin-right: 24rpx;
+  height: 17rpx;
+}
+.start-score image{
+  width: 17rpx;
+  height: 17rpx;
+  padding-left: 3rpx;
+}
+.start-text{
+  color: #1f3463;
+}

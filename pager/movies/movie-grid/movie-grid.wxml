@@ -1,0 +1,11 @@
+<import src="../movie/movie.wxml" />
+<template name="movie-gird">
+  <scroll-view class="movie-gird-content" scroll-y="{{true}}" scroll-x="{{fales}}" 
+    bindscrolltolower="onScrollLower">
+    <block wx:for="{{List}}" index="inx">
+      <view class="movie-gird-itme">
+        <template is="movieTemplate" data="{{...item}}" />
+      </view>
+    </block>
+  </scroll-view>
+</template>

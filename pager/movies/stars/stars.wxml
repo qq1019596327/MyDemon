@@ -1,0 +1,10 @@
+<template name="starsTemplate">
+  <view class="stars-content">
+    <view class="start-score">
+      <block wx:for="{{max/2}}" wx:for-index="in">
+        <image src="{{in+1<(average/2)?'/res/icon/starScore_yellow.png':'/res/icon/starScore.png'}}"></image>
+      </block>
+    </view>
+    <text class="start-text">{{average}}</text>
+  </view>
+</template>

@@ -1,0 +1,18 @@
+@import "../stars/stars.wxss";
+
+.movie-content{
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+
+.movie-image{
+  height: 270rpx;
+  width: 200rpx;
+  margin-bottom: 20rpx;
+}
+
+.movie-text{
+  font-size: 24rpx;
+  margin-bottom: 16rpx;
+}

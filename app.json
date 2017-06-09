@@ -1,13 +1,31 @@
 {
-  "pages":[
+  "pages": [
     "pager/login/login",
     "pager/mainList/mainList",
-    "pager/mainList/item_detail/item_detail"    
-    
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
+    "pager/mainList/item_detail/item_detail",
+    "pager/movies/movies",
+    "pager/movies/more-movies/more-movies",
+    "pager/movies/movie-detail/movie-detail"
+      ],
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#154f81",
     "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pager/mainList/mainList",
+        "text": "文章",
+        "iconPath": "res/icon/article.png",
+        "selectedIconPath": "res/icon/article_select.png"
+      },
+      {
+        "pagePath": "pager/movies/movies",
+        "text": "电影",
+        "iconPath": "res/icon/movie.png",
+        "selectedIconPath": "res/icon/movie_select.png"
+      }
+    ]
   }
 }
